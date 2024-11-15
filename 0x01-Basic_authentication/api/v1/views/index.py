@@ -32,3 +32,11 @@ def unauthorized_route() -> str:
     aborts if unauthorized route
     """
     abort(401)
+
+
+@app_views.route('/forbidden', strict_slashes=False)
+def forbiddedn_route() -> str:
+    """
+    aborts with 403 error if forbidden route
+    """
+    abort(403)
