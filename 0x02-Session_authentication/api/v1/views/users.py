@@ -30,7 +30,7 @@ def view_one_user(user_id: str = None) -> str:
 
     if user_id == "me":
         if not request.current_user:
-            abort(404)  # user not authenticated
+            abort(404)
         user = request.current_user
     else:
         # get user by id
