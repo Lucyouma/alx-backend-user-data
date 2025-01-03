@@ -1,4 +1,4 @@
-#!/usr/bin/env pythonn3
+#!/usr/bin/env python3
 """
 Module handling Personal Data
 """
